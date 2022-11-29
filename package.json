@@ -1,0 +1,16 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Retos codember by midudev",
+  "scripts": {
+    "reto1": "deno run --allow-net retos/reto1.js",
+    "reto2": "deno run retos/reto2.js",
+    "reto3": "deno run --allow-net retos/reto3.js",
+    "reto4": "deno run --allow-net retos/reto4.js",
+    "done": "echo 'Done'"
+  },
+  "keywords": [],
+  "author": "Christian Eduardo Nicolau",
+  "license": "Apache-2.0"
+
+}

@@ -1,0 +1,21 @@
+- help
+- hint
+- ls
+- share
+- version
+- rank
+- score
+- cat
+- cd
+---
+- cowsay
+- submit
+- say
+- mail
+- do
+- play
+- confetti
+- ping
+- curl
+- countdown
+

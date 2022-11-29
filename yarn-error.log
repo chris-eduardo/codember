@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\cedua\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js reto 4
+
+PATH: 
+  C:\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\bin\cmder\vendor\conemu-maximus5;C:\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\app\client\cedua\product\21.0.0\client_1\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\gsudo\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Multipass\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\cedua\.cargo\bin;C:\Users\cedua\AppData\Local\Microsoft\WindowsApps;C:\Users\cedua\AppData\Local\Programs\Microsoft VS Code\bin;C:\bin\cmder;c:\bin;C:\Program Files\JetBrains\WebStorm 2022.1.1\bin;C:\Users\cedua\AppData\Local\Programs\oh-my-posh\bin;C:\Users\cedua\AppData\Roaming\nvm;C:\Users\cedua\AppData\Roaming\npm;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\bin\cmder\vendor\bin;C:\bin\cmder\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Trabajo\nuxt\02-Top-Restaurants\codember\package.json: Unexpected token ` in JSON at position 315
+      at JSON.parse (<anonymous>)
+      at C:\Users\cedua\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\cedua\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\cedua\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "codember",
+    "version": "1.0.0",
+    "description": "Retos codember by midudev",
+    "scripts": {
+      "reto1": "deno run --allow-net retos/reto1.js",
+      "reto2": "deno run retos/reto2.js",
+      "reto3": "deno run --allow-net retos/reto3.js",
+      "reto4": "deno run --allow-net retos/reto4.js",
+      "reto": `deno run --allow-net retos/reto${1}.js`,
+      "done": "echo 'Done'"
+    },
+    "keywords": [],
+    "author": "Christian Eduardo Nicolau",
+    "license": "Apache-2.0"
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
