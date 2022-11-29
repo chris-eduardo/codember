@@ -1,5 +1,5 @@
 núm| solución
--  | -
+--- | ---
 01 | say Elon Musk
 02 | ping midu.dev
 03 | confetti confetti confetti
