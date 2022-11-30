@@ -7,6 +7,7 @@
     "reto2": "deno run retos/reto2.js",
     "reto3": "deno run --allow-net retos/reto3.js",
     "reto4": "deno run --allow-net retos/reto4.js",
+    "reto5": "deno run --allow-net retos/reto5.js",
     "done": "echo 'Done'"
   },
   "keywords": [],
